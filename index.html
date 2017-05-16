@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Movie Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/simple-grid.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center">
+                    <h1 class="text center space">Search For Any Movie</h1>
+                    <form id="searchForm" class="center space">
+                        <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="movies" class="row movies">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+</body>
+
+</html>

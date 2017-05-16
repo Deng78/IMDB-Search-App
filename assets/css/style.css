@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(39, 43, 48);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 870px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+.text,
+.list-group-item,
+strong {
+    color: white;
+}
+
+.text,
+.list-group-item {
+    color: white;
+    font-weight: 300;
+}
+
+strong {
+    padding-right: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.space {
+    padding: 40px;
+}
+
+.search {
+    padding-top: 20px;
+}
+
+.overlay {
+    background-color: rgb(28, 30, 34);
+}
+
+#searchText {
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#searchText::-webkit-input-placeholder {
+    color: white;
+}
+
+.movies img,
+.movie img {
+    width: 70%!important;
+}
+
+@media(min-width:960px) {
+    #movies .col-3 .well {
+        height: 390px;
+    }
+    #movies .col-3 img {
+        height: 240px;
+    }
+}
+
+.title {
+    display: block;
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+    align-content: center;
+    color: white;
+    font-size: 12px;
+    border: solid 1.5px rgb(39, 43, 48);
+    background: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    outline: none;
+    letter-spacing: 0.05rem;
+}
+
+.btn-two {
+    color: white;
+    padding: 15px 25px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-bottom-color: rgba(0, 0, 0, 0.34);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.34) inset, 0 2px 0 -1px rgba(0, 0, 0, 0.13), 0 3px 0 -1px rgba(0, 0, 0, 0.08), 0 3px 13px -1px rgba(0, 0, 0, 0.21);
+}
+
+.btn,
+.btn-two {
+    margin: 9px;
+}
+
+.btn-two:active {
+    top: 1px;
+    border-color: rgba(0, 0, 0, 0.34) rgba(0, 0, 0, 0.21) rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.89), 0 1px rgba(0, 0, 0, 0.05) inset;
+    position: relative;
+}
+
+.btn.large,
+.btn-two.large,
+.btn-effect.large {
+    padding: 20px 40px;
+    font-size: 22px;
+}
+
+.btn.blue,
+.btn-two.blue {
+    background-color: #7fb1bf;
+}
